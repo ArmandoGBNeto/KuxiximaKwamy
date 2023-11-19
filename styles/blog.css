@@ -1,0 +1,61 @@
+.blog-title p{
+    font-size:30px;
+    font-style:italic;
+    margin-top:50px;
+    margin-left:50px
+}
+.blog-page-top-container{
+    position: sticky;
+    top:0px;
+    width:auto;
+    /*width:1500px;*/
+}
+.blog-page-top-container{
+    background: white;
+}
+
+.blog-menu-bar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    margin-left:80px;
+
+}
+
+
+.blog-menu-bar a {
+    color:black;
+    text-decoration: none;
+    margin-right: 40px;
+    opacity: 0.6;
+    transition:opacity 0.15s;
+}
+.blog-menu-bar a:hover{
+    opacity: 1;
+}
+.blog-menu-bar a::selection{
+    opacity: 1;
+}
+
+.blog-page-mid-container {
+    margin-top: 60px;
+    margin-left:80px;
+    line-height: 30px;
+    width:1090px;
+
+}
+
+.blog-page-mid-container h1{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center; 
+    font-size: 22px;
+}
+.blog-page-mid-container h2{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left; 
+    font-size: 20px;
+}
+.blog-page-mid-container p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left; 
+    font-size: 20px;
+}

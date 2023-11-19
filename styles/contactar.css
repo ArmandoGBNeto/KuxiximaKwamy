@@ -1,0 +1,87 @@
+.contactar-title p{
+    font-size:30px;
+    font-style:italic;
+    margin-top:50px;
+    margin-left:50px
+}
+.contactar-page-top-container{
+    position: sticky;
+    top:0px;
+    width:auto;
+    /*width:1500px;*/
+}
+.contactar-page-top-container{
+    background: white;
+}
+
+.contactar-menu-bar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    margin-left:80px;
+
+}
+
+
+.contactar-menu-bar a {
+    color:black;
+    text-decoration: none;
+    margin-right: 40px;
+    opacity: 0.6;
+    transition:opacity 0.15s;
+}
+.contactar-menu-bar a:hover{
+    opacity: 1;
+}
+.contactar-menu-bar a::selection{
+    opacity: 1;
+}
+
+.contactar-page-content{
+    margin-top: 60px;
+    margin-left:80px;
+    line-height: 30px;
+    width:1090px;
+
+}
+.contactar-page-content h1{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left; 
+    font-size: 22px;
+}
+.contactar-page-content h2{
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left; 
+    font-size: 20px;
+}
+.contactar-page-content p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left; 
+    font-size: 20px;
+}
+
+.contactar-page-nome-input{
+    height:20px ;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 220px;
+
+}
+.contact-page-nome-lb,.contact-page-email-lb,.contact-page-comentario-lb,.contact-page-comentario-input{
+    display:block;
+}
+.contact-page-email-input{
+    height:20px ;
+    width:400px;
+
+}
+.contact-page-email-input, .contactar-page-nome-input{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact-page-comentario-input{
+    width:500px;
+    height:300px;
+}
+
