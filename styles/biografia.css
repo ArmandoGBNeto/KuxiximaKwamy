@@ -1,0 +1,51 @@
+.biografia-title p{
+    font-size:30px;
+    font-style:italic;
+    margin-top:50px;
+    margin-left:50px
+}
+.biografia-page-top-container{
+    position: sticky;
+    top:0px;
+    width:auto;
+    /*width:1500px;*/
+}
+.biografia-page-top-container{
+    background: white;
+}
+
+.biografia-menu-bar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    margin-left:80px;
+
+}
+
+
+.biografia-menu-bar a {
+    color:black;
+    text-decoration: none;
+    margin-right: 40px;
+    opacity: 0.6;
+    transition:opacity 0.15s;
+}
+.biografia-menu-bar a:hover{
+    opacity: 1;
+}
+.biografia-menu-bar a::selection{
+    opacity: 1;
+}
+
+.biografia-page-content{
+    margin-top: 60px;
+    margin-left:80px;
+    line-height: 30px;
+    display:flex;
+    width:1090px;
+
+}
+.biografia-page-content p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: left; 
+    font-size: 20px;
+}
